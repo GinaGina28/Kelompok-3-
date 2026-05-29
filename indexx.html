@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu Utama Website POKLAHSAR</title>
+
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body{
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      background: linear-gradient(135deg, #ffe4ef, #ffd6ec, #fff0f7);
+      color: #444;
+      min-height: 100vh;
+    }
+
+    header{
+      background: linear-gradient(90deg, #4f95ff, #7bb4ff);
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }
+
+    header h1{
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+      letter-spacing: 1px;
+    }
+
+    header h4{
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+      font-weight: 500;
+    }
+
+    header p{
+      max-width: 850px;
+      margin: auto;
+      line-height: 1.7;
+      font-size: 1rem;
+      opacity: 0.95;
+    }
+
+    .menu-container{
+      max-width: 850px;
+      margin: 3rem auto;
+      padding: 0 1rem;
+    }
+
+    .menu-title{
+      text-align: center;
+      font-size: 1.8rem;
+      color: #337fd6;
+      margin-bottom: 1.8rem;
+      font-weight: bold;
+    }
+
+    .menu{
+      list-style: none;
+      background: white;
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 6px 18px rgba(255, 105, 180, 0.2);
+    }
+
+    .menu li{
+      border-bottom: 1px solid #ffd1e6;
+    }
+
+    .menu li:last-child{
+      border-bottom: none;
+    }
+
+    .menu a{
+      display: block;
+      padding: 1.3rem 1.5rem;
+      text-decoration: none;
+      color: #444;
+      font-size: 1.08rem;
+      font-weight: 600;
+      transition: 0.3s ease;
+    }
+
+    .menu a:hover{
+      background: #ffe6f2;
+      color: #0013e6;
+      padding-left: 2rem;
+    }
+
+    .info-box{
+      margin-top: 2rem;
+      background: white;
+      padding: 1.5rem;
+      border-radius: 18px;
+      box-shadow: 0 5px 15px rgba(255, 105, 180, 0.15);
+      text-align: center;
+    }
+
+    .info-box h3{
+      color: #337ad6;
+      margin-bottom: 1rem;
+    }
+
+    .info-box p{
+      line-height: 1.7;
+      color: #666;
+    }
+
+    footer{
+      margin-top: 4rem;
+      text-align: center;
+      padding: 1.2rem;
+      background: #33a2d6;
+      color: white;
+      font-size: 0.95rem;
+    }
+
+    @media(max-width:600px){
+      header h1{
+        font-size: 1.5rem;
+      }
+
+      .menu a{
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>SISTEM INFORMASI MANAJEMEN POKLAHSAR</h1>
+    <h4>KELOMPOK 3</h4>
+
+    <p>
+      Selamat datang di website resmi Kelompok 3 POKLAHSAR.
+    </p>
+  </header>
+
+  <div class="menu-container">
+
+    <h2 class="menu-title">Menu Layanan Utama</h2>
+
+    <ul class="menu">
+      <li>
+        <a href="sejarah kelompok.html">
+          Sejarah Kelompok Pokhlasar
+        </a>
+      </li>
+
+      <li>
+        <a href="data dasar kelompok.html">
+          Data Dasar 
+        </a>
+      </li>
+
+      <li>
+        <a href="data anggota.html">
+          Data Anggota 
+        </a>
+      </li>
+
+      <li>
+        <a href="data komoditas.html">
+          Data Komoditas Kelompok Pokhlasar
+        </a>
+      </li>
+    </ul>
+
+    <div class="info-box">
+      <h3>Tentang Kelompok 3</h3>
+
+      <p>
+        POKLAHSAR bergerak dalam pengolahan hasil
+        perikanan yang inovatif dan berkualitas.
+        Dengan adanya sistem informasi ini diharapkan pelayanan,
+        administrasi, dan penyampaian informasi kepada anggota
+        maupun masyarakat menjadi lebih modern dan terorganisir.
+      </p>
+    </div>
+
+  </div>
+
+  <footer>
+    &copy; 2026 Kelompok 3 - POKLAHSAR
+  </footer>
+
+</body>
+</html>
